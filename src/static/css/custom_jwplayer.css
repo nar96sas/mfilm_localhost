@@ -1,0 +1,28 @@
+.jwplayer.jw-skin-custom .jw-title {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    font-size: .6em;
+    height: 8em;
+    background: -webkit-linear-gradient(top, #000 0, #000 18%, rgba(0,0,0,0) 100%);
+    background: linear-gradient(to bottom, #000 0, #000 18%, rgba(0,0,0,0) 100%);
+    padding-top: 0px;
+}
+
+.jwplayer.jw-skin-custom .jw-title-primary {
+    font-weight: bold;
+}
+
+.jwplayer.jw-skin-custom .jw-title-primary, .jw-title-secondary {
+    padding: .75em 1.5em;
+    min-height: 2.5em;
+    width: 75%;
+    color: white;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow-x: hidden;
+}
+
+.jwplayer.jw-skin-custom .jw-controls {
+    background: none;
+}
