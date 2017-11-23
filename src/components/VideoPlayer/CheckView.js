@@ -3,15 +3,15 @@ import { toMinute, closeModal, scrollToTop } from '../../static/js/utils.js';
 
 export default class CheckView extends React.Component {
     resume() {
+        scrollToTop();        
         jwplayer().seek(this.props.time);
         jwplayer().pause();
         closeModal();
-        scrollToTop();
     }
 
     close() {
+        scrollToTop();                
         closeModal();
-        scrollToTop();        
     }
 
     render() {

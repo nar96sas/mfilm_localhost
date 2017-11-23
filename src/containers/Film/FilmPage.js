@@ -26,7 +26,7 @@ export default class FilmPage extends React.Component {
         if (getCookie('video_' + film.nameVN) > 0) showModal('checkViewModal');
     }
 
-    render() {
+    render() {        
         const name = this.props.match.params.filmName;
         const film = films.filter((film) => film.nameEn == name)[0]; //return all the film that match the condition 
         if (!film)

@@ -283,7 +283,7 @@ a, a:hover, a:active, a:focus {
     margin-top: 17px;
 }
 
-.imdb-score span {
+.imdb-score .imdb {
     background-color: #fec601;
     border-radius: 2px;
     color: #000;

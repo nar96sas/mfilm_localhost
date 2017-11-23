@@ -26,7 +26,7 @@ export default class CoverInfo extends React.Component {
                 <div className='col-xs-3 col-sm-7 col-md-7 right-info-film'> 
                     <TitleFilm nameVN={nameVN} nameEn={nameEn} />
                     <PriceFilm price={price} />
-                    <ScoreFilm imdbScore={imdbScore} rating={rating} />
+                    <ScoreFilm imdbScore={imdbScore} rating={rating} haveAction={true} />
                     <div className='content-film-right film-detail-views'>
                         <div> <span className='pe-7s-look'> </span> {view} </div>
                         <div> <span className='pe-7s-comment'> </span> {nbComment} </div>

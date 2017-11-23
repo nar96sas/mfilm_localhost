@@ -12,8 +12,7 @@ import Login from '../../components/Authentication/Login.js';
 import Modal from '../../components/Modal/Modal.js';
 
 export default class Home extends React.Component {
-
-  render() {
+  render() {    
     return (
       <div>
         <Drawer />

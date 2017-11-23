@@ -1,5 +1,4 @@
 import React from "react";
-import ReactDOM from "react-dom";
 import Star from "./Star.js";
 
 export default class Rating extends React.Component {
